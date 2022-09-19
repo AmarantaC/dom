@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Josefin Slab", serif;
+  background-image: url(img/fondo.jpg);
+}
+
+.contenedor_info {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  align-items: center;
+}
+.contenedor_info .contenedor_texto {
+  margin-top: 30px;
+}
+.contenedor_info .contenedor_texto h1 {
+  font-size: 50px;
+  color: rgb(194, 137, 15);
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contenedor_info .contenedor_texto p {
+  color: rgb(255, 240, 206);
+  margin: 0px;
+  font-size: 25px;
+  width: 100%;
+  max-width: 400px;
+}
+.contenedor_info div {
+  width: 100%;
+  max-width: 450px;
+  margin: auto;
+}
+.contenedor_info div img {
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,55 @@
+$principal: black;
+$texto: rgb(194, 137, 15);
+$texto2: rgb(255, 240, 206);
+$fondo2: rgba(0, 0, 0, 0.8);
+
+$fuenteprincipal: 'Josefin Slab', serif;
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: $fuenteprincipal; 
+    background-image:url(img/fondo.jpg);  
+    }
+
+.contenedor_info{
+    background-color: $fondo2 ; 
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin:30px auto;
+    align-items: center;
+    
+    .contenedor_texto{
+        margin-top: 30px;
+
+        h1{
+            font-size: 50px;
+            color: $texto;        
+            width: 100%; 
+            margin-bottom: 20px;             
+        }
+    
+        p{
+            color: $texto2;
+            margin: 0px;   
+            font-size: 25px;    
+            width: 100%;
+            max-width: 400px;
+        }    
+
+    }
+
+    div{
+        width: 100%;
+        max-width: 450px;    
+        margin: auto;
+
+        img{
+            width: 100%;      
+            margin: auto;   
+            margin-top: 20px;     
+            margin-bottom: 20px;   
+        }
+    }  
+}
